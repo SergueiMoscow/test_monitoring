@@ -1,0 +1,10 @@
+# /etc/systemd/system/test_monitor.service
+[Unit]
+Description=Monitor test process
+
+[Service]
+ExecStart=/usr/local/bin/test_monitor.sh
+Type=oneshot
+User=root
+StandardOutput=journal
+StandardError=journal
