@@ -33,7 +33,7 @@
 ```bash
 LOG_FILE="/var/log/test_monitor.log"
 PID_FILE="/var/run/test_monitor.pid"
-MONITORING_URL="https://notes.sushkovs.ru"
+MONITORING_URL="https://test.com/monitoring/test/api"
 ```
 
 ### 2. Запуск мониторинга
